@@ -12,6 +12,14 @@ console.log(arr[7]);
 console.log(arr[8]);
 console.log(arr[9]);
 
+let arrNew = [];
+arrNew[0] = "book";
+arrNew[arrNew.length] = 13;
+arrNew[2] = false;
+
+console.log(arrNew);
+
+
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
 
 let book1 = {
@@ -117,11 +125,11 @@ let users = [
         username: "user8",
         password: 589556975
     }, {
-    name: "Liliya",
+        name: "Liliya",
         username: "user9",
         password: 987708
     }, {
-    name: "Yurii",
+        name: "Yurii",
         username: "user10",
         password: "yturrio"
     }];
